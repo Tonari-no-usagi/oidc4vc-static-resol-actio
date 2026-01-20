@@ -1,5 +1,7 @@
 # oidc4vc-static-resolver
 
+[![GitHub Marketplace](https://img.shields.io/badge/Marketplace-OIDC4VC_Static_Resolver-blue?logo=github-actions&logoColor=white)](https://github.com/marketplace/actions/oidc4vc-static-resolver)
+
 [Japanese version (日本語版)](README_ja.md)
 
 - **5-Minute VC Issuance**: Build a VC issuing server just by pushing to GitHub Pages.

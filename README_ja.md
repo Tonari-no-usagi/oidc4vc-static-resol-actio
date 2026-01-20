@@ -1,5 +1,7 @@
 # oidc4vc-static-resolver
 
+[![GitHub Marketplace](https://img.shields.io/badge/Marketplace-OIDC4VC_Static_Resolver-blue?logo=github-actions&logoColor=white)](https://github.com/marketplace/actions/oidc4vc-static-resolver)
+
 [English version (英語版)](README.md)
 
 - **5分でVC発行**: GitHub Pages への Push だけで VC 発行サーバーが完成します。
