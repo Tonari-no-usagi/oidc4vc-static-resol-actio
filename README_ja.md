@@ -9,7 +9,7 @@
 
 ## デモ
 実際にデプロイされたデモサイトはこちらです：
-[https://tonari-no-usagi.github.io/oidc4vc-static-resol/](https://tonari-no-usagi.github.io/oidc4vc-static-resol/)
+[https://tonari-no-usagi.github.io/oidc4vc-static-resol-action/](https://tonari-no-usagi.github.io/oidc4vc-static-resol-action/)
 
 ## 動作確認済みウォレット
 以下のウォレットアプリで正常な VC 発行・表示を確認しています。
@@ -74,7 +74,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build Metadata
-        uses: tonari-no-usagi/oidc4vc-static-resol-actio@main
+        uses: tonari-no-usagi/oidc4vc-static-resol-action@main
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:

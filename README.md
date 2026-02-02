@@ -9,7 +9,7 @@
 
 ## Demo
 You can see our live demo site here:
-[https://tonari-no-usagi.github.io/oidc4vc-static-resol/](https://tonari-no-usagi.github.io/oidc4vc-static-resol/)
+[https://tonari-no-usagi.github.io/oidc4vc-static-resol-action/](https://tonari-no-usagi.github.io/oidc4vc-static-resol-action/)
 
 ## Tested Wallets
 Successfully verified with the following wallet apps:
@@ -74,7 +74,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Build Metadata
-        uses: tonari-no-usagi/oidc4vc-static-resol-actio@main
+        uses: tonari-no-usagi/oidc4vc-static-resol-action@main
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
